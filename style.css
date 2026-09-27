@@ -149,6 +149,7 @@ nav {
     text-align: center;
 }
 #table-info {
+    margin-top: 20px;
     width: 800px;
     display: flex;
     justify-content: space-between;
@@ -161,6 +162,7 @@ nav {
     min-width: 0; */
 }
 #table-info h2 {
+    margin: 0;
     /* margin: 0 0 10px; */
     color: #757575;
     font-size: 20px;
@@ -169,7 +171,8 @@ nav {
 }
 #table-info p {
     width: 100%;
-    /* margin: 0; */
+    margin: 0;
+    margin-top: 5px;
     color: #474747;
     font-size: 20px;
     font-weight: 700;
@@ -181,7 +184,7 @@ nav {
 /*------------ What I Do CSS ------------*/
 #what-i-do-container {
     width: 100%;
-    height: 830px;
+    height: 480px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -227,4 +230,64 @@ nav {
     font-weight: 400;
     color: #757575;
     text-align: start;
+}
+
+
+
+/*------------ Summary Of My Resume CSS ------------*/
+#summary-of-my-resume {
+    margin-top: 180px;
+    height: 830px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#summary-of-my-resume article {
+    width: 1180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#summary-of-my-resume-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 100px;
+}
+#resume-aside-title {
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+#summary-of-my-resume article section {
+    display: flex;
+    gap: 40px;
+}
+#summary-of-my-resume article section aside div h1 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+#summary-of-my-resume article section aside div h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+#summary-of-my-resume article section aside div p {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+#summary-of-my-resume hr {
+    margin: 30px 0;
+}
+#summary-of-my-resume button {
+    margin-top: 50px;
 }
