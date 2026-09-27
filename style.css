@@ -236,7 +236,7 @@ nav {
 
 /*------------ Summary Of My Resume CSS ------------*/
 #summary-of-my-resume {
-    margin-top: 180px;
+    margin-top: 200px;
     height: 830px;
     display: flex;
     flex-direction: column;
@@ -290,4 +290,14 @@ nav {
 }
 #summary-of-my-resume button {
     margin-top: 50px;
+}
+
+/*------------ Summary Of My Resume CSS ------------*/
+#amazing-works {
+    margin-top: 200px;
+    height: 830px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
