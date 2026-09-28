@@ -1,10 +1,14 @@
 # Developer Portfolio
+**Simple HTML & CSS Webpage**
 
 A personal portfolio website showcasing profile information, skills, experience, and selected work.
+---
 
 **Built with:** HTML and CSS
+---
 
 **Tag:** One Page and Non-Responsive
+---
 
 ## Project structure
 
