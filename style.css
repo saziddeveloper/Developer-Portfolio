@@ -1,303 +1,385 @@
 body {
-    margin: 0;
-    font-family: "Open Sans", sans-serif;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*------------ Header CSS ------------*/
 header {
-    background-color: #fff8f3;
-    width: 100%;
-    height: 830px;
-    background-image: url("./images/developer.png"), url("./images/header_bg.png");;
-    background-repeat: no-repeat;
-    background-position: 40px center, bottom right;
-    background-size: auto, 50%;
+  background-color: #fff8f3;
+  width: 100%;
+  height: 830px;
+  background-image:
+    url("./images/developer.png"), url("./images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position:
+    40px center,
+    bottom right;
+  background-size: auto, 50%;
 }
 nav {
-    display: flex;
-    justify-content: space-around;
-    gap: 500px;
+  display: flex;
+  justify-content: space-around;
+  gap: 500px;
 }
 #nav-title {
-    font-size: 45px;
-    font-weight: 800;
-    color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+  color: #181818;
 }
 #nav-title span {
-    color: #fd6e0a;
+  color: #fd6e0a;
 }
 #nav-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 51px;
 }
 #nav-item li {
-    list-style: none;
-    text-decoration: none;
+  list-style: none;
+  text-decoration: none;
 }
 #nav-item li a {
-    text-decoration: none;
-    color: #474747;
-    font-size: 20px;
-    font-weight: 400;
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
 }
 #nav-item button {
-    background-color: #fd6e0a;
-    color: white;
-    padding: 15px 30px;
-    border: 0;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: 700;
+  background-color: #fd6e0a;
+  color: white;
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
 }
-#home{
-    display: flex;
-    justify-content: space-around;
+#home {
+  display: flex;
+  justify-content: space-around;
 }
 #hero-img {
-    margin-top: 18px;
+  margin-top: 18px;
 }
 .hero {
-    margin-top: 180px;
-    margin-left: 225px;
-    width: 500px;
+  margin-top: 180px;
+  margin-left: 225px;
+  width: 500px;
 }
 .hero h2 {
-    margin: 0;
-    margin-left: 5px;
-    color: #474747;
-    font-size: 45px;
-    font-weight: 600;
+  margin: 0;
+  margin-left: 5px;
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
 }
 .hero h1 {
-    margin: 0;
-    color: #181818;
-    font-size: 85px;
-    font-weight: 700;
+  margin: 0;
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
 }
 .hero p {
-    margin-left: 5px;
-    margin-top: 25px;
-    color: #757575;
-    font-weight: 400;
+  margin-left: 5px;
+  margin-top: 25px;
+  color: #757575;
+  font-weight: 400;
 }
 .hero div {
-    margin-left: 5px;
-    margin-top: 35px;
+  margin-left: 5px;
+  margin-top: 35px;
 }
 #btn-downloadCV {
-    background-color: #fd6e0a;
-    color: white;
-    padding: 15px 30px;
-    border: 0;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: 700;
+  background-color: #fd6e0a;
+  color: white;
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
 }
 #btn-contact {
-    margin-left: 20px;
-    color: #fd6e0a;
-    padding: 14px 30px;
-    border: 2px solid #fd6e0a;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: 700;
+  margin-left: 20px;
+  color: #fd6e0a;
+  padding: 14px 30px;
+  border: 2px solid #fd6e0a;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
 }
 .fa-solid {
-    margin-right: 10px;
+  margin-right: 10px;
 }
-
 
 /*------------ About Me CSS ------------*/
 #about-me {
-    width: 100%;
-    height: 830px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 830px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #about-me-container {
-    background-color: #fff8f3;
-    border-radius: 10px;
-    width: 1140px;
-    height: 550px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #fff8f3;
+  border-radius: 10px;
+  width: 1140px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #about-me-content {
-    width: 1200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #about-me-content h1 {
-    margin: 0 0 30px;
-    font-size: 35px;
-    font-weight: 700;
-    color: #181818;
-    text-align: center;
+  margin: 0 0 30px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  text-align: center;
 }
 #about-me-content p {
-    width: 740px;
-    /* margin: 0 0 45px; */
-    line-height: 1.8;
-    font-weight: 400;
-    color: #757575;
-    text-align: center;
+  width: 740px;
+  /* margin: 0 0 45px; */
+  line-height: 1.8;
+  font-weight: 400;
+  color: #757575;
+  text-align: center;
 }
 #table-info {
-    margin-top: 20px;
-    width: 800px;
-    display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
-    gap: 20px;
+  margin-top: 20px;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 20px;
 }
 #table-info div {
-    width: 200px;
-    /* flex: 1;
+  width: 200px;
+  /* flex: 1;
     min-width: 0; */
 }
 #table-info h2 {
-    margin: 0;
-    /* margin: 0 0 10px; */
-    color: #757575;
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
+  margin: 0;
+  /* margin: 0 0 10px; */
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
 }
 #table-info p {
-    width: 100%;
-    margin: 0;
-    margin-top: 5px;
-    color: #474747;
-    font-size: 20px;
-    font-weight: 700;
-    text-align: center;
-    line-height: 1.4;
+  width: 100%;
+  margin: 0;
+  margin-top: 5px;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.4;
 }
-
 
 /*------------ What I Do CSS ------------*/
 #what-i-do-container {
-    width: 100%;
-    height: 480px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #what-i-do-content {
-    border-radius: 10px;
-    width: 1180px;
-    height: 550px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  border-radius: 10px;
+  width: 1180px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #what-i-do-content h1 {
-    text-align: center;
+  text-align: center;
 }
 #what-i-do-content p {
-    width: 820px;
-    color: #757575;
-    text-align: center;
+  width: 820px;
+  color: #757575;
+  text-align: center;
 }
 #what-i-do-content section {
-    margin-top: 20px;
-    display: flex;
-    gap: 30px;
-    width: 100%;
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+  width: 100%;
 }
 #what-i-do-content section aside {
-    width: 25%;
-    padding: 30px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  width: 25%;
+  padding: 30px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
 }
 #what-i-do-content section aside h1 {
-    font-size: 20px;
-    font-weight: 700;
-    color: #181818;
-    text-align: start;
+  font-size: 20px;
+  font-weight: 700;
+  color: #181818;
+  text-align: start;
 }
 #what-i-do-content section aside p {
-    width: 160px;
-    font-weight: 400;
-    color: #757575;
-    text-align: start;
+  width: 160px;
+  font-weight: 400;
+  color: #757575;
+  text-align: start;
 }
-
-
 
 /*------------ Summary Of My Resume CSS ------------*/
 #summary-of-my-resume {
-    margin-top: 200px;
-    height: 830px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  margin-top: 200px;
+  height: 830px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #summary-of-my-resume article {
-    width: 1180px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 1180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #summary-of-my-resume-title {
-    font-size: 35px;
-    font-weight: 700;
-    color: #181818;
-    margin-bottom: 100px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 100px;
 }
 #resume-aside-title {
-    margin: 0;
-    margin-bottom: 40px;
-    font-size: 30px;
-    font-weight: 700;
-    color: #474747;
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #474747;
 }
 #summary-of-my-resume article section {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 #summary-of-my-resume article section aside div h1 {
-    margin: 0;
-    font-size: 25px;
-    font-weight: 700;
-    color: #474747;
+  margin: 0;
+  font-size: 25px;
+  font-weight: 700;
+  color: #474747;
 }
 #summary-of-my-resume article section aside div h2 {
-    margin-top: 10px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #757575;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
 }
 #summary-of-my-resume article section aside div p {
-    margin-top: 25px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #757575;
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
 }
 #summary-of-my-resume hr {
-    margin: 30px 0;
+  margin: 30px 0;
 }
 #summary-of-my-resume button {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
-/*------------ Summary Of My Resume CSS ------------*/
+/*------------ My Amazing Works CSS ------------*/
 #amazing-works {
-    margin-top: 200px;
-    height: 830px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  margin-top: 200px;
+  height: 830px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#amazing-works h2 {
+  margin: 0;
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+}
+#amazing-works article {
+  margin-top: 42px;
+  width: 1180px;
+  display: flex;
+  gap: 25px;
+}
+#amazing-works article aside {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/*------------ Footer CSS ------------*/
+footer {
+  width: 100%;
+  height: 780px;
+  background-color: #fff8f3;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer section {
+  width: 1200px;
+  height: 580px;
+  display: flex;
+  gap: 150px;
+}
+footer section h2 {
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+}
+footer section p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #474747;
+}
+footer section div {
+  margin-top: 30px;
+  display: flex;
+  gap: 25px;
+}
+#footer-aside-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+footer section div img {
+  width: 30px;
+}
+footer section input {
+  border: 0;
+  border-radius: 3px;
+  padding: 20px 30px;
+  width: 400px;
+  font-size: 18px;
+}
+footer section textarea {
+  border: 0;
+  border-radius: 3px;
+  padding: 20px 30px;
+  width: 400px;
+  font-size: 18px;
+}
+footer section button {
+  background-color: #fd6e0a;
+  color: white;
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  width: 150px;
 }
