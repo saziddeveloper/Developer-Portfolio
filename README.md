@@ -21,9 +21,16 @@ A personal portfolio website showcasing profile information, skills, experience,
 │   │   └── Rectangle 12.png
 │   │   └── Rectangle 13.png
 │   └── icons/
-│       └── developer.png
-│       └── hardy.png
-│       └── header_bg.png
+│   │   └── facebook.png
+│   │   └── insta.png
+│   │   └── js.png
+│   │   └── mongo.png
+│   │   └── nodejs.png
+│   │   └── react.png
+│   │   └── twitter.png
+│   ├── developer.png
+│   ├── hardy.png
+│   └── header_bg.png
 ├── Project UI/
 │   └── Portfolio.fig
 │   └── Portfolio.pdf
