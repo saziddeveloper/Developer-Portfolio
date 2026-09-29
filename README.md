@@ -10,6 +10,21 @@ A personal portfolio website showcasing profile information, skills, experience,
 **Tag:** One Page and Non-Responsive
 ---
 
+## Website section overview
+
+This portfolio webpage is a single-page design with 6 main sections. The layout follows a consistent structure and naming style across the page:
+
+1. Home
+2. About Me
+3. What I Do
+4. A Summary of My Resume
+5. My Amazing Works
+6. Let’s Connect / Let’s Message Me (footer contact section)
+
+This consistency helps keep the portfolio clean, easy to navigate, and visually organized.
+
+---
+
 ## Project structure
 
 ```text
