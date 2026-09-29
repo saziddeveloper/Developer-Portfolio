@@ -7,7 +7,7 @@ A personal portfolio website showcasing profile information, skills, experience,
 **Built with:** HTML and CSS
 ---
 
-**Tag:** One Page and Non-Responsive
+**Tag:** One Page, Non-Responsive
 ---
 
 ## Website section overview
